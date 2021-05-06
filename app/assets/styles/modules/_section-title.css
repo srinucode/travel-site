@@ -5,21 +5,21 @@
     @mixin atSmall{
         font-size: 3.75rem;
     }
-    strong{
-        font-weight: 500;
+strong{
+    font-weight: 500;
+}
+&__icon{
+    height: 3.75rem;
+    width: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:.6rem;
+    @mixin atSmall{
+        margin-right:.5rem;
+        margin-left: 0;
+        margin-bottom:0;
+        display:inline-block;
     }
-    &__icon{
-        height: 3.75rem;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: .6rem;
-
-        @mixin atSmall{
-            margin-right:.5rem;
-            margin-left:0;
-            margin-bottom:0;
-            display:inline-block;
-        }
-    }
+}
 }
