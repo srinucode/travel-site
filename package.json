@@ -20,6 +20,7 @@
   "homepage": "https://github.com/veligethi/travel-site#readme",
   "dependencies": {
     "gulp": "^4.0.2",
+    "lazysizes": "^5.3.2",
     "lodash": "^4.17.21",
     "normalize.css": "^8.0.1"
   },
