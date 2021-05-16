@@ -11,6 +11,10 @@ strong{
 &--blue{
     color: $mainBlue;
 }
+&--less-margin{
+    margin-bottom: 1.3rem;
+    margin-top: 0;
+}
 &__icon{
     height: 3.75rem;
     width: 3rem;
