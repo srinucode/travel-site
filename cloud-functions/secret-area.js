@@ -4,8 +4,8 @@ exports.handler=function(even,context,callback){
     <p>Here we can tell you that the sky is <strong>blue</strong>, and two plus two equals four.</p>
     `
     let body
-    if (event.body){
-        body=JSON.parse(event.body)
+    if (Event.body){
+        body=JSON.parse(Event.body)
 
     } else{
         body={}
