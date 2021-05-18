@@ -3,7 +3,7 @@ import 'lazysizes'
 import MobileMenu from './modules/MobileMenu'
 import RevealOnScroll from './modules/RevealOnScroll'
 import StickyHeader from './modules/StickyHeader'
-alert("testing!!!!!!!!")
+
 
 let stickyHeader=new StickyHeader()
 new RevealOnScroll(document.querySelectorAll(".feature-item"),75)
